@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Raju Portfolio</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="body">
+            <!-- this is the nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-default">
+                <div class="container-fluid" id="name-container">
+                    <div class="navbar" id="navbarNav"> 
+                        <p class="nav-name">Ramakrishna Raju</p><br><br>
+                        <p class="nav-sub"> GeoSpatial Analyst | Data Visualization | Cartographic Design | UI UX Design</p>
+                    </div>
+                    <div>
+                    <!-- don't forget to change the active a class when copying to a new page -->
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- top box for about text and picture -->
+            <div class="container">
+                <div class="row" id="top">
+                    <div id="me-box">
+                        <div class="col-sm-8" id="me-text">
+                            <p class="about-intro"> Hello, I'm Raju, and I take pride in being a highly skilled data analyst and visualization expert. My expertise lies in geospatial analysis and cartography design, where I have developed a strong background. I have a keen eye for detail and a genuine passion for transforming complex data into actionable insights. By leveraging data-driven approaches, I excel at delivering valuable solutions that drive informed decision-making. <a href="#" onclick="scrollToBottom()"> Lets Connect</a>
+
+                                <script>
+                                function scrollToBottom() {
+                                    window.scrollTo(0, document.body.scrollHeight);
+                                }
+                                </script>
+                            </p>
+                        </div> 
+                        <div class="col-sm-4" id="me-pic">
+                            <img id="headshot" src="img/Profile_pic.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- portfolio -->
+            <!-- UW-Madison maps-->
+            <div class="container py-2">
+                <h3 class="portfolio-title">spatial data analysis with cartography principles to craft visually compelling graphics, maps that bring insights to complex information <strong></strong></h3>
+                <div class="grid" data-masonry='{"percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="https://gangaraju09.github.io/Polaris-Lab-UK/index.html"><img src="img/Polaris_Lab_UK_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Polaris Lab</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="leaflet.html"><img src="img/GDP_Change_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">GDP Evolution</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="d3.html"><img src="img/CrimeRate_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Crime Rate</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="gangotri.html"><img src="img/GangotriGalcier_Index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Gangothri Glacier change</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="mapbox.html"><img src="img/CustomizedEarth_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Earth Redesign</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="centralwisconsin.html"><img src="img/Central Wisconsin_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Central Wisconsin Farmers Market</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="covid.html"><img src="img/DaneCovid_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Dane County-Wisconsin Covid 19</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="flicker.html"><img src="img/Photo_distribution.png" id="grid-pic"></a>
+                            <h3 class="card-title">Flickr Photo Distribution Disney World</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="network.html"><img src="img/Network_Analysis_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Madiosn-Wisconsin Network Analysis</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="googleapi.html"><img src="img/AralSea_index.gif" id="grid-pic"></a>
+                            <h3 class="card-title">Land Use Land Cover Change</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="airbnb.html"><img src="img/GWR_index.png" id="grid-pic"></a>
+                            <h3 class="card-title"> Geographic weighted Regression</h3>
+                        </div>
+                    </div>            
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="beloit.html"><img src="img/BeloitFMRoutes_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Farm & Farmers market Road-Networks</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="img/NC MAP.png"><img src="img/NC_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">North Carolina Historic Regions</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="img/Veterans.png"><img src="img/Veterans_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">USA Army Dominance</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href="img/AFRICA_Political Map.png"><img src="img/AFRICA_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Africa Political Continent</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="grid-item">
+                            <a href ="img/GIS LAB08.png "><img src="img/Site_selection_index.png" id="grid-pic"></a>
+                            <h3 class="card-title">Suitable Site Selection</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Details
+            <div class="container py-2">
+                <h3 class="portfolio-title"> Connect<strong></strong></h3>
+            </div>
+            
+            <div class="row">
+                <div class="col col-lg-1 col-md-3 col-1"></div>
+                <div class="col col-lg-10 col-md-6 col-sm-8 col-12 info d-flex justify-content-center" id="contact-item">
+                    <p class="mr-3 mb-0">
+                        <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" style="text-decoration: none;">
+                            <img src="img/linkedin_icon.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 15px;">
+                            LinkedIn
+                        </a>
+                    </p>
+                    <p class="mr-3 mb-0">
+                        <a href="https://github.com/gangaraju09" style="text-decoration: none;">
+                            <img src="img/github.png" alt="GitHub" style="width: 40px; height: 40px; margin-right: 15px;">
+                            GitHub
+                        </a>
+                    </p>                    
+                    <p class="mb-0">
+                        <a href="mailto:gangaraju2@wisc.edu" style="text-decoration: none;">
+                            <img src="img/email.png" alt="Email" style="width: 40px; height: 40px; margin-right: 15px;">
+                            Email
+                        </a>
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center mt-4">
+                    <p>
+                        <a href="#">
+                            <img src="img/handshake.png" alt="Handshake" style="width: 100px; height: 100px; margin-right: 10px;">
+                        </a>
+                    </p>
+                </div>
+            </div> -->
+
+            <div class="container py-2">
+                <h3 class="portfolio-title"> Connect<strong></strong></h3>
+            </div>
+
+            <div class="container"  >
+                <div class="row" id="top">
+                    <div id="me-contact">
+                        <div class="col col-lg-1 col-md-3 col-1"></div>
+                        <div class="col-sm-8 d-flex justify-content-between" id="me-text">
+                            <p class="mr-3 mb-0">
+                                <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" style="text-decoration: none; ">
+                                    <img src="img/linkedin_icon.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 15px; ">
+                                    LinkedIn
+                                </a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="mailto:gangaraju2@wisc.edu" style="text-decoration: none;">
+                                    <img src="img/email.png" alt="Email" style="width: 40px; height: 40px; margin-right: 15px;">
+                                    Email
+                                </a>
+                            </p>
+                            <p class="mr-3 mb-0">
+                                <a href="https://github.com/gangaraju09" style="text-decoration: none;">
+                                    <img src="img/github.png" alt="GitHub" style="width: 40px; height: 40px; margin-right: 15px;">
+                                    GitHub
+                                </a>
+                            </p> 
+                            <p class="mr-3 mb-0">
+                                <a href="resume.html" style="text-decoration: none;">
+                                    <img src="img/resume.png" alt="Resume" style="width: 40px; height: 40px; margin-right: 15px;">
+                                    Resume
+                                </a>
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>            
+
+
+            <div class="col-12 d-flex justify-content-center mt-4">
+                <p>
+                    <a href="#">
+                        <img src="img/handshake.png" alt="Handshake" style="width: 100px; height: 100px; margin-right: 10px;">
+                    </a>
+                </p>
+            </div>
+            
+
+            
+            
+           
+        </div>
+        
+        <!-- scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- need this script to make masonry images load correctly -->
+        <script>
+            // init Masonry
+            var $grid = $('.grid').masonry({
+            itemSelector: '.item',
+            isAnimated: true,
+            isFitWidth: true
+            });
+            // layout Masonry after each image loads
+            $grid.imagesLoaded().progress( function() {
+            $grid.masonry('layout');
+            });
+        </script>
+    </body>
+</div>
+
+</html>
