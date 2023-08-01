@@ -3,14 +3,14 @@
 /* universal site styles */
 
 .body {
-    background-color: #e8d6d6;
+    background-color:/* #e8d6d6*/ #c8e1cc;
     color: #FAF9F6;
     padding-bottom: 100px;
     
 }
 
 .body a {
-    color: #198754;
+    color: #14245b;
 }
 
 .body a:hover {
@@ -143,8 +143,8 @@
 }
 
 .me-box {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 100px;
     float: left;
     clear: both;
     }
@@ -178,17 +178,19 @@
 	font-weight: 300;
 	text-align: left;
 	float: left;
-	margin: 100px 0px 0px 0px;
+	/*margin: 100px 0px 0px 0px;*/
     font-family: lato;
     color: rgb(98 73 71);
 }
 
 #me-pic {
     position: relative;
-	height: auto;
+	height: 250px;
+    width: 250px;
 	float: left;
 	padding: 0px;
 	margin: 0px;
+    
     outline-style: solid;
     outline-width: 0px;
     outline-color: #FAF9F6;
@@ -202,7 +204,7 @@
     text-align: center;
     border-bottom: 1px solid white;
     padding-bottom: 1em;
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
     margin-bottom: 2rem;
 }
 
