@@ -1,314 +1,405 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Raju Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramakrishna Raju Gangaraju | GIS Portfolio</title>
+  <meta name="description" content="GIS Analyst portfolio showcasing geospatial analysis, data visualization, and cartographic design projects.">
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-    </head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-    <body>
-        <div class="body">
-            <!-- this is the nav bar -->
-            <nav class="navbar navbar-expand-lg navbar-default">
-                <div class="container-fluid" id="name-container">
-                    <div class="navbar" id="navbarNav"> 
-                        <p class="nav-name">Ramakrishna Raju Gangaraju</p><br><br>
-                        <p class="nav-sub"> GeoSpatial Analyst | Data Visualizer | Cartographic Designer</p>
-                    </div>
-                    <div>
-                    <!-- don't forget to change the active a class when copying to a new page -->
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Portfolio</a>
-                                <hr>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="resume.html">Resume</a>
-                                <hr>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style_modern.css">
+</head>
+<body>
 
-            
+  <!-- Dot Grid Background -->
+  <div class="dot-bg"></div>
 
-            <div class="container"  >
-                <div class="row" id="top">
-                    <div id="me-contact" style="align-items: center;">
-                        <div class="col col-lg-4 col-md-3 col-1"></div>
-                        <div class="col-sm-12 d-flex justify-content-between" id="me-text">
-                            <p class="mr-3 mb-0">
-                                <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" style="text-decoration: none; ">
-                                    <img src="img/linkedin_icon.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 15px; ">
-                                    LinkedIn
-                                </a>
-                            </p>
-                            <p class="mr-3 mb-0">
-                                <a href="mailto:gangaraju2@wisc.edu" style="text-decoration: none;">
-                                    <img src="img/email.png" alt="Email" style="width: 40px; height: 40px; margin-right: 15px;">
-                                    Email
-                                </a>
-                            </p>
-                            <p class="mr-3 mb-0">
-                                <a href="https://github.com/gangaraju09" style="text-decoration: none;">
-                                    <img src="img/github.png" alt="GitHub" style="width: 40px; height: 40px; margin-right: 15px;">
-                                    GitHub
-                                </a>
-                            </p> 
-                            <p class="mr-3 mb-0">
-                                <a href="resume.html" style="text-decoration: none;">
-                                    <img src="img/resume.png" alt="Web Resume" style="width: 40px; height: 40px; margin-right: 15px;">
-                                    Web Resume
-                                </a>
-                            </p>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">Raju<span class="dot">.</span>GIS</div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-                            <p class="mr-3 mb-0">
-                                <a href="lib/Ramakrishna-Raju-Gangaraju-Resume.pdf" style="text-decoration: none;">
-                                    <img src="img/resume.png" alt="Standard Resume" style="width: 40px; height: 40px; margin-right: 15px;">
-                                    PDF Resume
-                                </a>
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-                
-            </div>            
-
-            <!-- top box for about text and picture -->
-            <div class="container">
-                <div class="row" id="top">
-                    <div id="me-box">
-
-                       
-                       
-                        <div class="col-sm-12" id="me-text">
-                            <p class="about-intro"> Hello, I'm Raju, and I take pride in being a highly skilled data analyst and visualization expert. My expertise lies in geospatial analysis and cartography design, where I have developed a strong background. I have a keen eye for detail and a genuine passion for transforming complex data into actionable insights. By leveraging data-driven approaches, I excel at delivering valuable solutions that drive informed decision-making. 
-                                
-                                <!--<a href="#" onclick="scrollToBottom()"> Lets Connect</a>
-
-                                <script>
-                                function scrollToBottom() {
-                                    window.scrollTo(0, document.body.scrollHeight);
-                                }
-                                </script> -->
-                            </p>
-                        </div> 
-                        
-                    </div>
-                </div>
-            </div>
-
-            <!-- portfolio -->
-            <!-- UW-Madison maps-->
-            <div class="container py-2">
-                <h3 class="portfolio-title">Spatial data analysis with cartography principles to craft visually compelling graphics, maps that bring insights to complex information <strong></strong></h3>
-                <div class="grid" data-masonry='{"percentPosition": true }'>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="https://gangaraju09.github.io/Polaris-Lab-UK/index.html"><img src="img/Polaris_Lab_UK_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Polaris Lab</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="vruksh.html"><img src="img/analysis_trees_temp_2022_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Project Vruksh</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="img/NC MAP.png"><img src="img/NC_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">North Carolina Historic Regions</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="img/Veterans.png"><img src="img/Veterans_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">USA Army Dominance</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="leaflet.html"><img src="img/GDP_Change_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">GDP Evolution</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="d3.html"><img src="img/CrimeRate_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Crime Rate</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="gangotri.html"><img src="img/GangotriGalcier_Index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Gangothri Glacier change</h3>
-                        </div>
-                    </div>
-                    
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="img/AFRICA_Political Map.png"><img src="img/AFRICA_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Africa Political Continent</h3>
-                        </div>
-                    </div>
-
-                   
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="mapbox.html"><img src="img/CustomizedEarth_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Earth Redesign</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="centralwisconsin.html"><img src="img/Central Wisconsin_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Central Wisconsin Farmers Market</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="covid.html"><img src="img/DaneCovid_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Dane County-Wisconsin Covid 19</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="flicker.html"><img src="img/Photo_distribution.png" id="grid-pic"></a>
-                            <h3 class="card-title">Flickr Photo Distribution Disney World</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="network.html"><img src="img/Network_Analysis_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Madison-Wisconsin Network Analysis</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="googleapi.html"><img src="img/AralSea_index.gif" id="grid-pic"></a>
-                            <h3 class="card-title">Land Use Land Cover Change</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="airbnb.html"><img src="img/GWR_index.png" id="grid-pic"></a>
-                            <h3 class="card-title"> Geographic weighted Regression</h3>
-                        </div>
-                    </div>            
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href="beloit.html"><img src="img/BeloitFMRoutes_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Farm & Farmers market Road-Networks</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href ="img/GIS LAB08.png "><img src="img/Site_selection_index.png" id="grid-pic"></a>
-                            <h3 class="card-title">Suitable Site Selection</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                        <div class="grid-item">
-                            <a href ="img/dane_county_puzzle_map_index.png "><img src="img/dane_county_puzzle_map.png" id="grid-pic"></a>
-                            <h3 class="card-title">Puzzle Map</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Contact Details
-            <div class="container py-2">
-                <h3 class="portfolio-title"> Connect<strong></strong></h3>
-            </div>
-            
-            <div class="row">
-                <div class="col col-lg-1 col-md-3 col-1"></div>
-                <div class="col col-lg-10 col-md-6 col-sm-8 col-12 info d-flex justify-content-center" id="contact-item">
-                    <p class="mr-3 mb-0">
-                        <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" style="text-decoration: none;">
-                            <img src="img/linkedin_icon.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 15px;">
-                            LinkedIn
-                        </a>
-                    </p>
-                    <p class="mr-3 mb-0">
-                        <a href="https://github.com/gangaraju09" style="text-decoration: none;">
-                            <img src="img/github.png" alt="GitHub" style="width: 40px; height: 40px; margin-right: 15px;">
-                            GitHub
-                        </a>
-                    </p>                    
-                    <p class="mb-0">
-                        <a href="mailto:gangaraju2@wisc.edu" style="text-decoration: none;">
-                            <img src="img/email.png" alt="Email" style="width: 40px; height: 40px; margin-right: 15px;">
-                            Email
-                        </a>
-                    </p>
-                </div>
-                <div class="col-12 d-flex justify-content-center mt-4">
-                    <p>
-                        <a href="#">
-                            <img src="img/handshake.png" alt="Handshake" style="width: 100px; height: 100px; margin-right: 10px;">
-                        </a>
-                    </p>
-                </div>
-            </div> -->
-
-            <!--<div class="container py-2">
-                <h3 class="portfolio-title"> Connect<strong></strong></h3>
-            </div> -->
-
-            
-
-
-            <div class="col-12 d-flex justify-content-center mt-4">
-                <p>
-                    <a href="#">
-                        <img src="img/handshake.png" alt="Handshake" style="width: 100px; height: 100px; margin-right: 10px;">
-                    </a>
-                </p>
-            </div>
-            
-
-            
-            
-           
+  <!-- ==================== HERO ==================== -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge"><span class="pin"></span> Geospatial AI &bull; Redmond, WA</div>
+        <h1>Ramakrishna Raju Gangaraju</h1>
+        <p class="hero-subtitle">Geospatial Data Scientist &bull; ML/AI Engineer &bull; Remote Sensing Analyst</p>
+        <p class="hero-desc">Geospatial AI professional with expertise in machine learning-driven image classification, large-scale spatial data processing (10TB+), and end-to-end geospatial pipeline automation. Proficient in training deep learning models (DCNN) on LiDAR, NAIP, and nDSM datasets to deliver high-accuracy land cover products and data-driven decision systems.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects &darr;</a>
+          <a href="lib/Ramakrishna-Raju-Gangaraju-Resume.pdf" target="_blank" class="btn-outline">Download Resume</a>
         </div>
-        
-        <!-- scripts -->
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">18</div>
+            <div class="stat-label">GIS Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">10TB+</div>
+            <div class="stat-label">Data Processed</div>
+          </div>
+        </div>
+      </div>
 
-        <!-- need this script to make masonry images load correctly -->
-        <script>
-            // init Masonry
-            var $grid = $('.grid').masonry({
-            itemSelector: '.item',
-            isAnimated: true,
-            isFitWidth: true
-            });
-            // layout Masonry after each image loads
-            $grid.imagesLoaded().progress( function() {
-            $grid.masonry('layout');
-            });
-        </script>
-    </body>
-</div>
+      <!-- Geo Visual Decoration -->
+      <div class="geo-visual">
+        <div class="contour-line"></div>
+        <div class="contour-line"></div>
+        <div class="contour-line"></div>
+        <div class="contour-line"></div>
+        <div class="contour-line"></div>
+        <div class="map-pin-deco"></div>
+        <div class="map-pin-deco"></div>
+        <div class="map-pin-deco"></div>
+        <span class="coord-tag">47.67°N</span>
+        <span class="coord-tag">122.12°W</span>
+      </div>
+    </div>
+  </section>
 
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>About</h2>
+        <span class="section-tag">who I am</span>
+      </div>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p class="about-tagline">// geospatial AI &middot; spatial data science &middot; remote sensing analytics</p>
+          <p>I'm Raju — a geospatial data scientist specializing in the intersection of machine learning and spatial analytics. With 5+ years of experience, I build and deploy AI-driven classification models on multi-terabyte remote sensing datasets (LiDAR, NAIP, nDSM) to produce high-accuracy land cover and environmental intelligence products.</p>
+          <p>My work spans the full geospatial data lifecycle: acquisition and preprocessing of orthoimagery (GeoTIFF), LiDAR point clouds (LAS/LAZ), and elevation models (DTM, DSM, DEM) through to spatial feature engineering, deep learning model training (DCNN), automated QC pipelines, and interactive visualization. I collaborate cross-functionally with product, engineering, and client teams to translate complex spatial data into scalable, production-grade solutions.</p>
+        </div>
+        <div>
+          <h3 style="font-size:16px; margin-bottom:16px; color: var(--text-primary);">Core Competencies</h3>
+          <div class="skills-grid">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Machine Learning</span>
+            <span class="skill-pill">Deep Learning (DCNN)</span>
+            <span class="skill-pill">Remote Sensing</span>
+            <span class="skill-pill">LiDAR Processing</span>
+            <span class="skill-pill">GDAL/OGR</span>
+            <span class="skill-pill">GeoPandas</span>
+            <span class="skill-pill">Rasterio</span>
+            <span class="skill-pill">Shapely</span>
+            <span class="skill-pill">ArcGIS Pro</span>
+            <span class="skill-pill">QGIS</span>
+            <span class="skill-pill">Google Earth Engine</span>
+            <span class="skill-pill">PostgreSQL/PostGIS</span>
+            <span class="skill-pill">Spatial Statistics</span>
+            <span class="skill-pill">Image Classification</span>
+            <span class="skill-pill">Pipeline Automation</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Power BI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Projects</h2>
+        <span class="section-tag">18 projects</span>
+      </div>
+      <div class="project-grid">
+
+        <!-- 1. Polaris Lab -->
+        <div class="project-card fade-in" data-project-id="polaris">
+          <div class="project-card-img"><img src="img/Polaris_Lab_UK_index.png" alt="Polaris Lab UK" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Web GIS</div>
+            <h3>Polaris Lab UK</h3>
+            <p>Web-based GIS project showcasing interactive mapping capabilities.</p>
+            <div class="project-tech"><span>Web GIS</span><span>JavaScript</span></div>
+          </div>
+        </div>
+
+        <!-- 2. Project Vruksh -->
+        <div class="project-card fade-in" data-project-id="vruksh">
+          <div class="project-card-img"><img src="img/analysis_trees_temp_2022_index.png" alt="Project Vruksh" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Remote Sensing</div>
+            <h3>Project Vruksh - Tree Canopy vs Urban Heat</h3>
+            <p>Large-scale land cover classification analyzing tree canopy and urban surface heat relationships.</p>
+            <div class="project-tech"><span>Python</span><span>GDAL</span><span>GEE</span></div>
+          </div>
+        </div>
+
+        <!-- 3. NC Historic Regions -->
+        <div class="project-card fade-in" data-project-id="nc-regions">
+          <div class="project-card-img"><img src="img/NC_index.png" alt="North Carolina Historic Regions" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Cartography</div>
+            <h3>North Carolina Historic Regions</h3>
+            <p>Cartographic visualization of North Carolina's diverse geographic and cultural landscape.</p>
+            <div class="project-tech"><span>ArcGIS Pro</span><span>Map Design</span></div>
+          </div>
+        </div>
+
+        <!-- 4. USA Veterans -->
+        <div class="project-card fade-in" data-project-id="veterans">
+          <div class="project-card-img"><img src="img/Veterans_index.png" alt="USA Army Dominance" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Cartography</div>
+            <h3>USA Army Dominance - Veterans Analysis</h3>
+            <p>Demographic spatial analysis of U.S. veterans using Chernoff bivariate mapping.</p>
+            <div class="project-tech"><span>ArcGIS</span><span>Bivariate Map</span></div>
+          </div>
+        </div>
+
+        <!-- 5. GDP Evolution -->
+        <div class="project-card fade-in" data-project-id="gdp">
+          <div class="project-card-img"><img src="img/GDP_Change_index.png" alt="GDP Evolution" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Interactive Viz</div>
+            <h3>GDP Evolution - Interactive Map</h3>
+            <p>Interactive Leaflet.js visualization tracking global GDP changes over time.</p>
+            <div class="project-tech"><span>Leaflet.js</span><span>JavaScript</span><span>GeoJSON</span></div>
+          </div>
+        </div>
+
+        <!-- 6. Crime Rate -->
+        <div class="project-card fade-in" data-project-id="crime-rate">
+          <div class="project-card-img"><img src="img/CrimeRate_index.png" alt="Crime Rate Analysis" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Data Visualization</div>
+            <h3>Crime Rate Analysis in USA</h3>
+            <p>D3.js powered crime rate visualization and spatial pattern analysis.</p>
+            <div class="project-tech"><span>D3.js</span><span>JavaScript</span><span>SVG</span></div>
+          </div>
+        </div>
+
+        <!-- 7. Gangothri Glacier -->
+        <div class="project-card fade-in" data-project-id="gangotri">
+          <div class="project-card-img"><img src="img/GangotriGalcier_Index.png" alt="Gangothri Glacier Change" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Remote Sensing</div>
+            <h3>Gangothri Glacier Change Analysis</h3>
+            <p>30-year satellite data analysis tracking glacier retreat in the Himalayas.</p>
+            <div class="project-tech"><span>Remote Sensing</span><span>Satellite Imagery</span></div>
+          </div>
+        </div>
+
+        <!-- 8. Africa Map -->
+        <div class="project-card fade-in" data-project-id="africa">
+          <div class="project-card-img"><img src="img/AFRICA_index.png" alt="Africa Political Map" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Cartography</div>
+            <h3>Africa Political Continent Map</h3>
+            <p>Detailed political map of Africa with national boundaries and geographic features.</p>
+            <div class="project-tech"><span>ArcGIS Pro</span><span>Map Design</span></div>
+          </div>
+        </div>
+
+        <!-- 9. Earth Redesign -->
+        <div class="project-card fade-in" data-project-id="earth-redesign">
+          <div class="project-card-img"><img src="img/CustomizedEarth_index.png" alt="Earth Redesign" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Cartography</div>
+            <h3>Redesign of Earth BaseMap</h3>
+            <p>Custom-designed Earth basemap using Mapbox Studio inspired by the movie Saaho.</p>
+            <div class="project-tech"><span>Mapbox</span><span>Studio</span></div>
+          </div>
+        </div>
+
+        <!-- 10. Central WI Farmers Market -->
+        <div class="project-card fade-in" data-project-id="cw-farmers">
+          <div class="project-card-img"><img src="img/Central%20Wisconsin_index.png" alt="Central Wisconsin Farmers Market" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Web GIS</div>
+            <h3>Central Wisconsin Farmers Market</h3>
+            <p>Web app for farmers markets, SNAP stores, and community demographics in Wisconsin.</p>
+            <div class="project-tech"><span>ArcGIS Online</span><span>Web App</span></div>
+          </div>
+        </div>
+
+        <!-- 11. Dane County COVID -->
+        <div class="project-card fade-in" data-project-id="covid">
+          <div class="project-card-img"><img src="img/DaneCovid_index.png" alt="Dane County COVID-19" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Spatial Analysis</div>
+            <h3>Dane County COVID-19 Analysis</h3>
+            <p>Human mobility and travel flow pattern visualization during the pandemic.</p>
+            <div class="project-tech"><span>Python</span><span>Kepler.gl</span><span>GeoJSON</span></div>
+          </div>
+        </div>
+
+        <!-- 12. Flickr Distribution -->
+        <div class="project-card fade-in" data-project-id="flickr">
+          <div class="project-card-img"><img src="img/Photo_distribution.png" alt="Flickr Photo Distribution" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Spatial Analysis</div>
+            <h3>Flickr Photo Distribution - Disney World</h3>
+            <p>Geospatial analysis of geotagged photos using Flickr API and K-means clustering.</p>
+            <div class="project-tech"><span>Python</span><span>K-means</span><span>Flickr API</span></div>
+          </div>
+        </div>
+
+        <!-- 13. Network Analysis -->
+        <div class="project-card fade-in" data-project-id="network">
+          <div class="project-card-img"><img src="img/Network_Analysis_index.png" alt="Network Analysis" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Network Analysis</div>
+            <h3>Madison Network Analysis</h3>
+            <p>Urban road network centrality analysis using OSMnx and NetworkX.</p>
+            <div class="project-tech"><span>OSMnx</span><span>NetworkX</span><span>Python</span></div>
+          </div>
+        </div>
+
+        <!-- 14. LULC Change -->
+        <div class="project-card fade-in" data-project-id="lulc">
+          <div class="project-card-img"><img src="img/AralSea_index.gif" alt="Land Use Land Cover Change" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Remote Sensing</div>
+            <h3>Land Use Land Cover Change</h3>
+            <p>Google Earth Engine analysis of land cover changes with Landsat timelapse.</p>
+            <div class="project-tech"><span>GEE</span><span>Landsat 8</span><span>NDVI</span></div>
+          </div>
+        </div>
+
+        <!-- 15. GWR -->
+        <div class="project-card fade-in" data-project-id="gwr">
+          <div class="project-card-img"><img src="img/GWR_index.png" alt="Geographic Weighted Regression" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Spatial Statistics</div>
+            <h3>Spatial Autocorrelation & GWR Analysis</h3>
+            <p>Moran's I and Geographic Weighted Regression analysis using PySAL.</p>
+            <div class="project-tech"><span>PySAL</span><span>GWR</span><span>Moran's I</span></div>
+          </div>
+        </div>
+
+        <!-- 16. Beloit Farmers Market -->
+        <div class="project-card fade-in" data-project-id="beloit">
+          <div class="project-card-img"><img src="img/BeloitFMRoutes_index.png" alt="Beloit Farmers Market" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Network Analysis</div>
+            <h3>Beloit Farmers Market Network</h3>
+            <p>Spatial relationship analysis between farmer locations and the Beloit market.</p>
+            <div class="project-tech"><span>ArcGIS</span><span>Network Analysis</span></div>
+          </div>
+        </div>
+
+        <!-- 17. Site Selection -->
+        <div class="project-card fade-in" data-project-id="site-selection">
+          <div class="project-card-img"><img src="img/Site_selection_index.png" alt="Site Selection" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">GIS Analysis</div>
+            <h3>Suitable Site Selection</h3>
+            <p>GIS-based site selection using overlay analysis and weighted scoring.</p>
+            <div class="project-tech"><span>ArcGIS Pro</span><span>Overlay Analysis</span></div>
+          </div>
+        </div>
+
+        <!-- 18. Puzzle Map -->
+        <div class="project-card fade-in" data-project-id="puzzle-map">
+          <div class="project-card-img"><img src="img/dane_county_puzzle_map.png" alt="Puzzle Map" loading="lazy"></div>
+          <div class="project-card-info">
+            <div class="project-card-tag">Cartography</div>
+            <h3>Dane County Puzzle Map</h3>
+            <p>Creative puzzle-style cartographic design of Dane County, Wisconsin.</p>
+            <div class="project-tech"><span>Cartography</span><span>Creative Design</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Get in Touch</h2>
+        <span class="section-tag">contact</span>
+      </div>
+      <div class="contact-grid fade-in">
+        <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <img src="img/linkedin_icon.png" alt="LinkedIn" style="width:24px;height:24px;">
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Connect with me</p>
+        </a>
+        <a href="https://github.com/gangaraju09" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <img src="img/github.png" alt="GitHub" style="width:24px;height:24px;">
+          </div>
+          <h3>GitHub</h3>
+          <p>View my repositories</p>
+        </a>
+        <a href="mailto:ramakrishna.gangaraju09@outlook.com" class="contact-card">
+          <div class="contact-icon">
+            <img src="img/email.png" alt="Email" style="width:24px;height:24px;">
+          </div>
+          <h3>Email</h3>
+          <p>ramakrishna.gangaraju09@outlook.com</p>
+        </a>
+      </div>
+      <div style="text-align:center;" class="fade-in">
+        <a href="lib/Ramakrishna-Raju-Gangaraju-Resume.pdf" target="_blank" class="contact-resume-btn">Download Resume PDF &darr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Ramakrishna Raju Gangaraju. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ramakrishna-raju-gangaraju/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/gangaraju09" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:ramakrishna.gangaraju09@outlook.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL ==================== -->
+  <div id="project-modal" class="modal-overlay" aria-hidden="true" role="dialog">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-tag"></div>
+      <h2 class="modal-title"></h2>
+      <div class="modal-tags"></div>
+      <div class="modal-description"></div>
+      <div class="modal-media"></div>
+      <div class="modal-links"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
 </html>
